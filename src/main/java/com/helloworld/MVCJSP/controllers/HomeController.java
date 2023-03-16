@@ -8,11 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/")
 public class HomeController {
 
-    public HomeController() {
-        super();
-    }
-
-    @GetMapping("")
+    @GetMapping("/index.jsp")
     public String index(){
         return "index";
     }
