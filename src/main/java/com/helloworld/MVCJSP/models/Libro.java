@@ -1,16 +1,22 @@
 package com.helloworld.MVCJSP.models;
 
 public class Libro {
-    private String isbdn;
+    private String isbn;
     private String titulo;
     private String autor;
 
-    public String getIsbdn() {
-        return isbdn;
+    public Libro(String isbn, String titulo, String autor) {
+        this.isbn = isbn;
+        this.titulo = titulo;
+        this.autor = autor;
     }
 
-    public void setIsbdn(String isbdn) {
-        this.isbdn = isbdn;
+    public String getIsbn() {
+        return isbn;
+    }
+
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
     }
 
     public String getTitulo() {
