@@ -2,13 +2,14 @@ package com.helloworld.MVCJSP;
 
 import com.helloworld.MVCJSP.models.Libro;
 import com.helloworld.MVCJSP.repositories.LibrosRepository;
-import com.helloworld.MVCJSP.repositories.RepositorioEnMemoria;
+import com.helloworld.MVCJSP.repositories.impl.RepositorioEnMemoria;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import java.util.HashMap;
 import java.util.Map;
 
+@Configuration
 public class LibrosConfig {
 
     @Bean

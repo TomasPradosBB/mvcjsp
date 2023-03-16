@@ -1,10 +1,12 @@
-package com.helloworld.MVCJSP.repositories;
+package com.helloworld.MVCJSP.repositories.impl;
 
 import com.helloworld.MVCJSP.models.Libro;
+import com.helloworld.MVCJSP.repositories.LibrosRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
-public class RepositorioEnMemoria implements LibrosRepository{
+public class RepositorioEnMemoria implements LibrosRepository {
 
     private final Map<String, Libro> librosEnMemoria;
 

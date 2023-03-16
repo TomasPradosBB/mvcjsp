@@ -1,8 +1,10 @@
 package com.helloworld.MVCJSP.repositories;
 
 import com.helloworld.MVCJSP.models.Libro;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
+
 
 public interface LibrosRepository {
 
