@@ -2,9 +2,10 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html>
     <head>
-        <title>Index page</title>
+        <title>Listado de Libros</title>
     </head>
     <body>
+        <div> Listado de Libros </div>
         <table>
             <thead>
                 <tr>
@@ -23,5 +24,7 @@
                 </c:forEach>
             </tbody>
         </table>
+        <br>
+        <a href="/"> Volver al índice </a> <br>
     </body>
 </html>
